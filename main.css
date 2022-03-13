@@ -1,0 +1,103 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 44, 29);
+}
+
+.header {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.container {
+   margin: 0 auto;
+   width: fit-content;
+   padding: 50px
+}
+
+.nav_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_item a {
+  font-size: 20px;
+}
+
+.nav_logo {
+  width: 80px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.bacxiu {
+  width: 450px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  
+} 
+
+.contentbx {
+  padding-left: 50px;
+  width: 500px;
+  height: 350px;
+}
+
+.ten {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gia {
+  font-size: 17px;
+  font-weight: 525;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.noidung{
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.related {
+  width: 140px;
+  height: auto;
+  padding-top: 4px;
+  padding-right: 6px;
+}
+
+.txt_related {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.img_related_product{
+  width: 220px;
+  height: auto;
+}
+
+.related_products {
+  display: flex;
+  
+}
+.img_bs {
+  padding: 0 20px;
+}
